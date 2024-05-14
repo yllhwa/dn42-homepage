@@ -1,0 +1,59 @@
+html {
+  font-family: Arial, Helvetica;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 表格样式 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* 行内代码块样式 */
+/* 选择器，不在pre块下 */
+code {
+  background-color: #ccc;
+  padding: 2px;
+  border-radius: 3px;
+  font-family: ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono",
+    "Courier New", monospace;
+}
+
+pre code {
+  /* 原来的样式 */
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.vp-code {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.copy {
+  display: none;
+}
